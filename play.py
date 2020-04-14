@@ -11,9 +11,8 @@ import matplotlib.cbook as cbook
 from shapes import addGlider, addGosperGliderGun
 
 arg_parser = argparse.ArgumentParser()
-arg_parser.add_argument('--num_generations', type=int, default=80)
+arg_parser.add_argument('--num_generations', type=int, default=500)
 arg_parser.add_argument('--world_size', type=int, default=80)
-arg_parser.add_argument('--initial_density', type=float, default=0.29)
 arg_parser.add_argument('--sleep_time', type=float, default=0.02)
 opts = arg_parser.parse_args()
 
